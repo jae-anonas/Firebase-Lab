@@ -6,6 +6,7 @@ package com.ga.roosevelt.firebase_lab;
 public class Message {
     String username;
     String message;
+    String color;
 
     public Message() {
     }
@@ -13,6 +14,20 @@ public class Message {
     public Message(String username, String message) {
         this.username = username;
         this.message = message;
+    }
+
+    public Message(String username, String message, String color) {
+        this.username = username;
+        this.message = message;
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getUsername() {

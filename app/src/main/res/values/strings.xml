@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Firebase-Lab</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
 </resources>
